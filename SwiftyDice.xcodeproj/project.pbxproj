@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		71A1ECCF253E3FF6008B1127 /* rolldice.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71A1ECCD253E3FF5008B1127 /* rolldice.mp3 */; };
+		71A1ECD0253E3FF6008B1127 /* failwah.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71A1ECCE253E3FF5008B1127 /* failwah.mp3 */; };
+		71A1ECD4253E3FFD008B1127 /* zfanfare.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 71A1ECD3253E3FFD008B1127 /* zfanfare.mp3 */; };
 		71AEFF47253637600050E0D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AEFF46253637600050E0D1 /* AppDelegate.swift */; };
 		71AEFF49253637600050E0D1 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AEFF48253637600050E0D1 /* SceneDelegate.swift */; };
 		71AEFF4B253637600050E0D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71AEFF4A253637600050E0D1 /* ViewController.swift */; };
@@ -27,6 +30,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		71A1ECCD253E3FF5008B1127 /* rolldice.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = rolldice.mp3; path = ../../../dddddddddddddddddddd/rolldice.mp3; sourceTree = "<group>"; };
+		71A1ECCE253E3FF5008B1127 /* failwah.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = failwah.mp3; path = ../../../dddddddddddddddddddd/failwah.mp3; sourceTree = "<group>"; };
+		71A1ECD3253E3FFD008B1127 /* zfanfare.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = zfanfare.mp3; path = ../../../dddddddddddddddddddd/zfanfare.mp3; sourceTree = "<group>"; };
 		71AEFF43253637600050E0D1 /* SwiftyDice.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftyDice.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		71AEFF46253637600050E0D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		71AEFF48253637600050E0D1 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -79,6 +85,9 @@
 		71AEFF45253637600050E0D1 /* SwiftyDice */ = {
 			isa = PBXGroup;
 			children = (
+				71A1ECCE253E3FF5008B1127 /* failwah.mp3 */,
+				71A1ECD3253E3FFD008B1127 /* zfanfare.mp3 */,
+				71A1ECCD253E3FF5008B1127 /* rolldice.mp3 */,
 				71AEFF46253637600050E0D1 /* AppDelegate.swift */,
 				71AEFF48253637600050E0D1 /* SceneDelegate.swift */,
 				71AEFF4A253637600050E0D1 /* ViewController.swift */,
@@ -144,7 +153,7 @@
 			isa = PBXProject;
 			attributes = {
 				LastSwiftUpdateCheck = 1130;
-				LastUpgradeCheck = 1130;
+				LastUpgradeCheck = 1200;
 				ORGANIZATIONNAME = "Nathan Mckenzie";
 				TargetAttributes = {
 					71AEFF42253637600050E0D1 = {
@@ -180,7 +189,10 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				71A1ECCF253E3FF6008B1127 /* rolldice.mp3 in Resources */,
+				71A1ECD0253E3FF6008B1127 /* failwah.mp3 in Resources */,
 				71AEFF53253637610050E0D1 /* LaunchScreen.storyboard in Resources */,
+				71A1ECD4253E3FFD008B1127 /* zfanfare.mp3 in Resources */,
 				71AEFF50253637610050E0D1 /* Assets.xcassets in Resources */,
 				71AEFF4E253637600050E0D1 /* Main.storyboard in Resources */,
 			);
@@ -270,6 +282,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
@@ -330,6 +343,7 @@
 				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
 				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
 				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
 				CLANG_WARN_STRICT_PROTOTYPES = YES;
 				CLANG_WARN_SUSPICIOUS_MOVE = YES;
